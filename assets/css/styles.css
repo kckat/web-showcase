@@ -1,0 +1,80 @@
+
+
+.name h1{
+    font-family: 'Suez One', serif;
+    font-size: 35px;
+    margin: 15px
+}
+
+#circle-front {
+    height: 3em;
+    width: 3em;
+    background-color: #FFC971;
+    border-radius: 50%;
+    position: absolute;
+    top: 2%;
+    z-index: -1;
+}
+#circle-back {
+    height: 4em;
+    width: 4em;
+    background-color: #CC5803;
+    border-radius: 50%;
+    position: absolute;
+    top: 3%;
+    right: 88%;
+    z-index: -2;
+}
+
+#circle-small {
+    height: 3em;
+    width: 3em;
+    background-color: #E2711D;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    right: 9%;
+    z-index: -1;
+}
+#circle-big {
+    height: 4em;
+    width: 4em;
+    background-color: #FF9505;;
+    border-radius: 50%;
+    position: absolute;
+    top: 21%;
+    right: 70%;
+    z-index: -2;
+}
+
+#circle-medium {
+    height: 4em;
+    width: 4em;
+    background-color: #FFB627;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 87%;
+    z-index: -2;
+}
+
+.projects {
+    margin-top: 10px;
+}
+
+.project img{
+    opacity: 0.7;
+}
+
+.project img:hover {
+    opacity: 100;
+}
+
+.project h3{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.project p{
+    font-size: 14px;
+}
