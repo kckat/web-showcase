@@ -6,6 +6,10 @@
     margin: 30px
 }
 
+a {
+    text-decoration: none;
+}
+
 .introduction {
     margin: 100px;
 }
@@ -85,8 +89,32 @@
     background-color: #E2711D;
 }
 
+.services {
+    margin-top: 50px;
+}
+
+.services h2 {
+    font-size: 3em;
+}
+
+.services h4 {
+    font-size: 2em;
+}
+
 .social-links-icon{
     height: 3em;
     width: 3em;
     margin: 5px;
+}
+
+
+/* project page styling */
+
+
+.programs-used{
+    padding-left: 100px;
+}
+
+.single-project {
+    margin: 0 30px 30px 30px;
 }
