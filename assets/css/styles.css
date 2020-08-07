@@ -3,12 +3,23 @@
 .name h1{
     font-family: 'Suez One', serif;
     font-size: 35px;
-    margin: 30px
+    margin: 30px 30px 0 30px;
 }
 
-a {
-    text-decoration: none;
+a{
+    color: black;
 }
+a:hover{
+    color:rgb(24, 24, 24);
+}
+
+.name h2{
+    font-size: 15px;
+    margin: 0 30px;
+    opacity: 0.5;
+}
+
+
 
 .introduction {
     margin: 100px;
@@ -87,6 +98,11 @@ a {
 #work{
     border-radius: 5px;
     background-color: #E2711D;
+    margin: 30px 0 40px 0;
+}
+
+#work:hover{
+    background-color: #ffa42c;
 }
 
 .services {
@@ -94,11 +110,11 @@ a {
 }
 
 .services h2 {
-    font-size: 3em;
+    font-size: 40px;
 }
 
 .services h4 {
-    font-size: 2em;
+    font-size: 20px;
 }
 
 .social-links-icon{
@@ -107,12 +123,19 @@ a {
     margin: 5px;
 }
 
+.social-links-icon:hover{
+    opacity: 0.7;
+}
 
 /* project page styling */
 
 
 .programs-used{
     padding-left: 100px;
+}
+
+.project-intro {
+    margin-top: 50px;
 }
 
 .single-project {
